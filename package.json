@@ -1,0 +1,25 @@
+{
+  "name": "proxy-popularDishes-wf",
+  "version": "1.0.0",
+  "description": "Proxy server for popular dishes component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elite-grub/proxy-popularDishes-wf.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elite-grub/proxy-popularDishes-wf/issues"
+  },
+  "homepage": "https://github.com/elite-grub/proxy-popularDishes-wf#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  }
+}
