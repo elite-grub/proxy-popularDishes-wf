@@ -159,6 +159,34 @@ img.photo-modal {
   width: 660px;
 }
 
+div.ask-community {
+  float: left;
+  /* width: 66.67%; */
+  width: 660px;
+  margin-bottom: -12px !important;
+  margin-left: -11px;
+  margin-right: -12px;
+  margin-top: 18px;
+}
+
+img.ask-community {
+  width: 650px;
+}
+
+div.reviews-header {
+  float: left;
+  /* width: 66.67%; */
+  width: 660px;
+  margin-bottom: -12px !important;
+  margin-left: -11px;
+  margin-right: -12px;
+  margin-top: 18px;
+}
+
+img.reviews-header {
+  width: 650px;
+}
+
 /* Side Bar Container */
 .side-bar {
   padding: 0 30px 0 0;
@@ -196,12 +224,50 @@ img.waitlist {
   width: 350px;
   padding: 5px;
 }
+
+div.summary {
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  width: inherit;
+  margin-bottom: 18px;
+}
+
+img.summary {
+  width: 350px;
+  padding: 5px;
+}
 /* Set up rest of open-rail screenshots with same css as reservation */
 
 /* Side Bar Subcontainer with left border only */
 .border-rail {
   padding-left: 30px;
-  /* Adjust top and bottom margins for each div and set width similar to divs in open-rail */
-  /* margin-top:
-  margin-bottom: */
+  width: 330px;
+  border-left: 1px solid #e6e6e6;
+}
+
+div.hours-sidebar {
+  width: 330px;
+  margin-bottom: 18px;
+}
+
+img.hours-sidebar {
+  width: 330px;
+}
+
+div.business-info {
+  width: 300px;
+  margin-bottom: 18px;
+}
+
+img.business-info {
+  width: 275px;
+}
+
+div.people-viewed {
+  width: 330px;
+  margin-bottom: 18px;
+}
+
+img.people-viewed {
+  width: 330px;
 }
