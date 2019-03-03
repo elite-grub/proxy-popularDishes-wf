@@ -23,6 +23,22 @@ img.search-bar {
   margin-left: 45px;
 }
 
+/* Drop Down Header */
+div.drop-down {
+  height: 41px;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  float: left;
+  background-color: #fafafa;
+  border: solid #ededed;
+  border-width: 1px;
+}
+
+img.drop-down {
+  width: 1062px;
+}
+
 /* Elite Grub Logo */
 div.eg {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -58,4 +74,10 @@ i.fas.fa-utensils {
   top: -9px;
   color: white;
   text-shadow: 3px 4px 3px #0000002e;
+}
+
+/* Popular Dishes */
+#popularDishes {
+  display: flex;
+  margin-top: 40px;
 }
