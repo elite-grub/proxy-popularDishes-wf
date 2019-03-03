@@ -1,46 +1,20 @@
-body {
-  margin: 0px;
-}
-
-/* Main Header */
-div.main-header {
-  height: 64px;
-  width: 100%;
-  display: flex;
-  background-color: #ca4126;
-}
-
-div.search-bar {
-  height: 64px;
-  width: 100%;
-  display: flex;
-  background-color: #ca4126;
-}
-
-img.search-bar {
-  width: 1020px;
-  position: relative;
-  margin-left: 45px;
-}
-
-/* Elite Grub Logo */
 div.eg {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   color: white;
   position: absolute;
-  left: 16px;
-  top: 6px;
-  background-color: #d33624;
+  left: 2px;
+  top: 8px;
+  background-color: #d4431b;
   font-variant-caps: titling-caps;
-  font-size: 22px;
+  font-size: 21px;
   text-shadow: 3px 4px 3px #0000002e;
 }
 
 div.logo {
-  background-color: #d33624;
+  background-color: #d4431b;
   position: absolute;
-  left: 67px;
+  left: 158px;
   padding: 6px 4px 0px 7px;
 }
 
@@ -58,4 +32,18 @@ i.fas.fa-utensils {
   top: -9px;
   color: white;
   text-shadow: 3px 4px 3px #0000002e;
+}
+
+img.search-bar {
+  width: 990px;
+  height: 64px;
+  position: relative;
+}
+
+div.search-bar {
+  height: 64px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #ca4126;
 }
