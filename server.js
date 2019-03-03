@@ -1,9 +1,12 @@
 const express = require('express');
 const morgan = require('morgan');
-
+const path = require('path');
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 app.use(morgan('dev'));
-app.use(express.static('public'));
-app.listen(port, () => console.log(`Proxy server running from port ${port}!`));
+app.use(express.static(path.join(__dirname, 'public')));
+
+app.listen(port, () => {
+  console.log(`server running at: http://localhost:${port}`);
+});
