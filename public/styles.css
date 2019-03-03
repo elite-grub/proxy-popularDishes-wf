@@ -155,22 +155,41 @@ img.photo-modal {
   margin-left: 15px;
   float: left;
   box-sizing: border-box;
-  width: 66.67%;
-  border-right: 1px solid #e6e6e6;
+  /* width: 66.67%; */
+  width: 660px;
 }
 
 /* Side Bar Container */
 .side-bar {
   padding: 0 30px 0 0;
-  margin-left: -15px;
   float: left;
   box-sizing: border-box;
-  width: 33.33%;
-  box-shadow: -1px 0 0 #e6e6e6;
+  /* width: 33.33%; */
+  width: 360px;
 }
 
-/* Popular Dishes */
-#popularDishes {
-  display: flex;
-  /* margin-top: 20px; */
+/* Side Bar Subcontainer with Bordered Components */
+.open-rail {
+  margin-bottom: 18px;
+  width: 360px;
+}
+
+div.reservation {
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  width: inherit;
+}
+
+img.reservation {
+  width: 350px;
+  padding: 5px;
+}
+/* Set up rest of open-rail screenshots with same css as reservation */
+
+/* Side Bar Subcontainer with left border only */
+.border-rail {
+  padding-left: 30px;
+  /* Adjust top and bottom margins for each div and set width similar to divs in open-rail */
+  /* margin-top:
+  margin-bottom: */
 }
