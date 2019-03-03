@@ -23,22 +23,6 @@ img.search-bar {
   margin-left: 45px;
 }
 
-/* Drop Down Header */
-div.drop-down {
-  height: 41px;
-  width: 100%;
-  display: flex;
-  position: absolute;
-  float: left;
-  background-color: #fafafa;
-  border: solid #ededed;
-  border-width: 1px;
-}
-
-img.drop-down {
-  width: 1062px;
-}
-
 /* Elite Grub Logo */
 div.eg {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -76,8 +60,39 @@ i.fas.fa-utensils {
   text-shadow: 3px 4px 3px #0000002e;
 }
 
+/* Drop Down Header */
+div.drop-down {
+  height: 41px;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  float: left;
+  background-color: #fafafa;
+  border: solid #ededed;
+  border-width: 1px;
+}
+
+img.drop-down {
+  width: 1062px;
+}
+
+/* Restaurant Header */
+div.restaurant-header {
+  display: flex;
+  width: 120%;
+  height: 100px;
+  margin-top: 43px;
+  margin-left: -20px;
+  background-color: #f5f5f5;
+}
+
+img.restaurant-header {
+  width: 1062px;
+  height: 100px;
+}
+
 /* Popular Dishes */
 #popularDishes {
   display: flex;
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
