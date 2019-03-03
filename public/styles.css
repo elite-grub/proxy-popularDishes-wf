@@ -147,16 +147,18 @@ img.photo-modal {
   width: 1062px;
   padding: 0 15px;
   padding-top: 18px;
+  margin-bottom: 18px;
 }
 
 /* Main Section Container*/
 .main-section {
-  padding: 0 30px 0 0;
+  padding: 0 30px 36px 0;
   margin-left: 15px;
   float: left;
   box-sizing: border-box;
   /* width: 66.67%; */
   width: 660px;
+  margin-bottom: 18px;
 }
 
 div.ask-community {
@@ -236,7 +238,6 @@ img.summary {
   width: 350px;
   padding: 5px;
 }
-/* Set up rest of open-rail screenshots with same css as reservation */
 
 /* Side Bar Subcontainer with left border only */
 .border-rail {
@@ -270,4 +271,55 @@ div.people-viewed {
 
 img.people-viewed {
   width: 330px;
+}
+
+div.collections {
+  width: 330px;
+  margin-bottom: 18px;
+}
+
+img.collections {
+  width: 330px;
+}
+
+div.nearby {
+  width: 330px;
+  margin-bottom: 18px;
+}
+
+img.nearby {
+  width: 330px;
+}
+
+div.misc {
+  width: 330px;
+  margin-bottom: 18px;
+}
+
+img.misc {
+  width: 330px;
+}
+
+/* Footer */
+div.footer-container {
+  display: flex;
+  width: 100%;
+  padding-left: 30px;
+  margin-top: 36px;
+  padding-bottom: 18px;
+  border-top: 1px solid #e6e6e6;
+  background-color: #f5f5f5;
+}
+
+div.footer {
+  width: 100%;
+  display: flex;
+  background-color: #f5f5f5;
+}
+
+img.footer {
+  position: relative;
+  width: 1062px;
+  height: 400px;
+  margin-top: 18px;
 }
