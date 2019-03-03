@@ -170,7 +170,6 @@ img.photo-modal {
 
 /* Side Bar Subcontainer with Bordered Components */
 .open-rail {
-  margin-bottom: 18px;
   width: 360px;
 }
 
@@ -178,9 +177,22 @@ div.reservation {
   border: 1px solid #e6e6e6;
   border-radius: 4px;
   width: inherit;
+  margin-bottom: 18px;
 }
 
 img.reservation {
+  width: 350px;
+  padding: 5px;
+}
+
+div.waitlist {
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  width: inherit;
+  margin-bottom: 18px;
+}
+
+img.waitlist {
   width: 350px;
   padding: 5px;
 }
