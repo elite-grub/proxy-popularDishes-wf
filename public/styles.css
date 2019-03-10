@@ -1,0 +1,325 @@
+body {
+  margin: 0px;
+}
+
+/* Main Header */
+div.main-header {
+  height: 64px;
+  width: 100%;
+  display: flex;
+  background-color: #ca4126;
+}
+
+div.search-bar {
+  height: 64px;
+  width: 100%;
+  display: flex;
+  background-color: #ca4126;
+}
+
+img.search-bar {
+  width: 1020px;
+  position: relative;
+  margin-left: 45px;
+}
+
+/* Elite Grub Logo */
+div.eg {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  color: white;
+  position: absolute;
+  left: 16px;
+  top: 6px;
+  background-color: #d33624;
+  font-variant-caps: titling-caps;
+  font-size: 22px;
+  text-shadow: 3px 4px 3px #0000002e;
+}
+
+div.logo {
+  background-color: #d33624;
+  position: absolute;
+  left: 67px;
+  padding: 6px 4px 0px 7px;
+}
+
+i.far.fa-circle {
+  font-size: 50px;
+  position: relative;
+  color: white;
+  text-shadow: 3px 4px 3px #0000002e;
+}
+
+i.fas.fa-utensils {
+  font-size: 24px;
+  position: relative;
+  left: -38px;
+  top: -9px;
+  color: white;
+  text-shadow: 3px 4px 3px #0000002e;
+}
+
+/* Drop Down Header */
+div.drop-down {
+  height: 41px;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  float: left;
+  background-color: #fafafa;
+  border: solid #ededed;
+  border-width: 1px;
+}
+
+img.drop-down {
+  width: 1062px;
+}
+
+/* Restaurant Subheader */
+.restaurant-subheader {
+  background-color: #f5f5f5;
+  height: 420px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Restaurant Header */
+div.restaurant-header {
+  display: flex;
+  width: 120%;
+  height: 100px;
+  margin-top: 43px;
+  margin-left: -20px;
+  background-color: #f5f5f5;
+}
+
+img.restaurant-header {
+  width: 1062px;
+  height: 100px;
+}
+
+/* Restaurant Map-Photo Container */
+.restaurant-map-photos {
+  width: 960px;
+  height: 354px;
+  display: table;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+/* Map Container */
+.map-container {
+  width: 33.33%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+div.restaurant-map {
+  width: 300px;
+  height: 353.95px;
+  border: 1px solid #ccc;
+}
+
+img.restaurant-map {
+  width: 300px;
+  height: 353.95px;
+}
+
+/* Photo Modal Container */
+.photo-container {
+  width: 66.67%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+div.photo-modal {
+  height: 354px;
+}
+
+img.photo-modal {
+  width: 760px;
+  height: 354px;
+}
+
+/* Super Container */
+.super-container {
+  width: 1062px;
+  padding: 0 15px;
+  padding-top: 18px;
+  margin-bottom: 18px;
+}
+
+/* Main Section Container*/
+.main-section {
+  padding: 0 30px 36px 0;
+  margin-left: 15px;
+  float: left;
+  box-sizing: border-box;
+  /* width: 66.67%; */
+  width: 660px;
+  margin-bottom: 18px;
+}
+
+div.ask-community {
+  float: left;
+  /* width: 66.67%; */
+  width: 660px;
+  margin-bottom: -12px !important;
+  margin-left: -11px;
+  margin-right: -12px;
+  margin-top: 18px;
+}
+
+img.ask-community {
+  width: 650px;
+}
+
+div.reviews-header {
+  float: left;
+  /* width: 66.67%; */
+  width: 660px;
+  margin-bottom: -12px !important;
+  margin-left: -11px;
+  margin-right: -12px;
+  margin-top: 18px;
+}
+
+img.reviews-header {
+  width: 650px;
+}
+
+/* Side Bar Container */
+.side-bar {
+  padding: 0 30px 0 0;
+  float: left;
+  box-sizing: border-box;
+  /* width: 33.33%; */
+  width: 360px;
+}
+
+/* Side Bar Subcontainer with Bordered Components */
+.open-rail {
+  width: 360px;
+}
+
+div.reservation {
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  width: inherit;
+  margin-bottom: 18px;
+}
+
+img.reservation {
+  width: 350px;
+  padding: 5px;
+}
+
+div.waitlist {
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  width: inherit;
+  margin-bottom: 18px;
+}
+
+img.waitlist {
+  width: 350px;
+  padding: 5px;
+}
+
+div.summary {
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  width: inherit;
+  margin-bottom: 18px;
+}
+
+img.summary {
+  width: 350px;
+  padding: 5px;
+}
+
+/* Side Bar Subcontainer with left border only */
+.border-rail {
+  padding-left: 30px;
+  width: 330px;
+  border-left: 1px solid #e6e6e6;
+}
+
+div.hours-sidebar {
+  width: 330px;
+  margin-bottom: 18px;
+}
+
+img.hours-sidebar {
+  width: 330px;
+}
+
+div.business-info {
+  width: 300px;
+  margin-bottom: 18px;
+}
+
+img.business-info {
+  width: 275px;
+}
+
+div.people-viewed {
+  width: 330px;
+  margin-bottom: 18px;
+}
+
+img.people-viewed {
+  width: 330px;
+}
+
+div.collections {
+  width: 330px;
+  margin-bottom: 18px;
+}
+
+img.collections {
+  width: 330px;
+}
+
+div.nearby {
+  width: 330px;
+  margin-bottom: 18px;
+}
+
+img.nearby {
+  width: 330px;
+}
+
+div.misc {
+  width: 330px;
+  margin-bottom: 18px;
+}
+
+img.misc {
+  width: 330px;
+}
+
+/* Footer */
+div.footer-container {
+  display: flex;
+  width: 100%;
+  padding-left: 30px;
+  margin-top: 36px;
+  padding-bottom: 18px;
+  border-top: 1px solid #e6e6e6;
+  background-color: #f5f5f5;
+}
+
+div.footer {
+  width: 100%;
+  display: flex;
+  background-color: #f5f5f5;
+}
+
+img.footer {
+  position: relative;
+  width: 1062px;
+  height: 400px;
+  margin-top: 18px;
+}

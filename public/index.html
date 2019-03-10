@@ -3,17 +3,135 @@
 
 <head>
   <title>Elite Grub Proxy Server</title>
-  <link rel="stylesheet" href="./styles.css" />
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ'
+    crossorigin='anonymous'>
   <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ'
     crossorigin='anonymous'>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
   <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
   <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
   <script src="http://localhost:3030/bundle.js"></script>
 </head>
 
 <body>
-  <div id="popularDishes"></div>
+  <div class="wrap">
+
+    <!-- Main Header: Replace with Stella's component -->
+    <div class="main-header">
+      <div class="search-bar">
+        <img class="search-bar" src="https://s3-us-west-1.amazonaws.com/elite-grub/Search-bar.png" />
+        <div class="logo">
+          <i class='far fa-circle'></i>
+          <i class='fas fa-utensils'></i>
+        </div>
+        <div class="eg">
+          <div class="EG">Elite</div>
+          <div class="EG">Grub</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Drop Down Header -->
+    <div class="drop-down">
+      <img class="drop-down" src="https://s3-us-west-1.amazonaws.com/elite-grub/Drop-downs.png" />
+    </div>
+
+    <!-- Restaurant Subheader Container: Map and Photo Modal -->
+    <div class="restaurant-subheader">
+      <div class="restaurant-header">
+        <img class="restaurant-header" src="https://s3-us-west-1.amazonaws.com/elite-grub-photos/Foghouse+Business+Header.png" />
+      </div>
+
+      <div class="restaurant-map-photos">
+        <!-- Replace map section with Kenneth's component -->
+        <div class="map-container">
+          <div class="restaurant-map">
+            <img class="restaurant-map" src="https://s3-us-west-1.amazonaws.com/elite-grub-photos/Foghouse+Map+and+Info.png" />
+          </div>
+        </div>
+
+        <!-- Replace photo modal with Brian's component -->
+        <div class="photo-container">
+          <div class="photo-modal">
+            <img class="photo-modal" src="https://s3-us-west-1.amazonaws.com/elite-grub-photos/Foghouse+Photo+Modal.png" />
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Main Content Container -->
+    <div class="super-container">
+      <div class="main-section">
+        <div id="popularDishes"></div>
+
+        <div class="ask-community">
+          <img class="ask-community" src="https://s3-us-west-1.amazonaws.com/elite-grub-photos/Foghouse+Ask+Community.png" />
+        </div>
+
+        <!-- Replace reviews with Spark's component -->
+        <div class="reviews-header">
+          <img class="reviews-header" src="https://s3-us-west-1.amazonaws.com/elite-grub-photos/Foghouse+Rec+Reviews.png" />
+        </div>
+      </div>
+
+      <!-- Side Bar -->
+      <div class="side-bar">
+        <!-- Side Bar Bordered Components -->
+        <div class="open-rail">
+          <div class="reservation">
+            <img class="reservation" src="https://s3-us-west-1.amazonaws.com/elite-grub-photos/Foghouse+Reservation+Side-bar.png" />
+          </div>
+
+          <div class="waitlist">
+            <img class="waitlist" src="https://s3-us-west-1.amazonaws.com/elite-grub-photos/Foghouse+Waitlist+Side-bar.png" />
+          </div>
+
+          <div class="summary">
+            <img class="summary" src="https://s3-us-west-1.amazonaws.com/elite-grub-photos/Foghouse+Summary+Side-bar+.png" />
+          </div>
+
+        </div>
+
+        <!-- SideBar border left only -->
+        <div class="border-rail">
+          <div class="hours-sidebar">
+            <img class="hours-sidebar" src="https://s3-us-west-1.amazonaws.com/elite-grub-photos/Foghouse+Hours+Side-bar.png" />
+          </div>
+
+          <div class="business-info">
+            <img class="business-info" src="https://s3-us-west-1.amazonaws.com/elite-grub-photos/Foghouse+More+Business+Info+1.png" />
+            <img class="business-info" src="https://s3-us-west-1.amazonaws.com/elite-grub-photos/Foghouse+More+Business+Info+2.png" />
+          </div>
+
+          <div class="people-viewed">
+            <img class="people-viewed" src="https://s3-us-west-1.amazonaws.com/elite-grub-photos/Foghouse+Also+Viewed.png" />
+          </div>
+
+          <div class="collections">
+            <img class="collections" src="https://s3-us-west-1.amazonaws.com/elite-grub-photos/Foghouse+Collections.png" />
+          </div>
+
+          <div class="nearby">
+            <img class="nearby" src="https://s3-us-west-1.amazonaws.com/elite-grub-photos/Foghouse+Nearby.png" />
+          </div>
+
+          <div class="misc">
+            <img class="misc" src="https://s3-us-west-1.amazonaws.com/elite-grub-photos/Foghouse+misc+side-bar.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer-container">
+      <div class="footer">
+        <img class="footer" src="https://s3-us-west-1.amazonaws.com/elite-grub-photos/Footer.png" />
+      </div>
+    </div>
+  </div>
+
   <script>
     const id = Math.floor(Math.random() * 100) + 1;
     ReactDOM.render(
